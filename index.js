@@ -10,6 +10,7 @@ module.exports = {
       require("babel-plugin-transform-function-bind"),
       require("babel-plugin-transform-decorators-legacy").default,
       require("babel-plugin-transform-class-properties"),
-      require("babel-plugin-transform-jsx").default
+
+      require("./plugins/transform-jsx")
   ]
 };

@@ -15,7 +15,6 @@ function handleCheckbox(t, modelBinding, openingElement, eventName) {
     if (bindingMap[bindingStr])
         bindingMap[bindingStr].push(modelBinding);
     else bindingMap[bindingStr] = [modelBinding];
-    console.log(bindingMap);
 
     modelBinding.name.name = 'checked';
     const modelBindingExpression = modelBinding.value.expression;
