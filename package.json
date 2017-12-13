@@ -1,0 +1,22 @@
+{
+  "name": "babel-preset-muse",
+  "version": "0.0.1",
+  "main": "index.js",
+  "dependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-function-bind": "^6.22.0",
+    "babel-plugin-transform-jsx": "^2.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-template": "^6.26.0"
+  },
+  "keywords": ["Muse", "Muse.js", "JSX", "babel-preset"],
+  "author": "HuQingyang <i@do.codes>",
+  "license": "MIT",
+  "homepage": "https://github.com/HuQingyang/babel-preset-muse",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuQingyang/babel-preset-muse"
+  }
+}
